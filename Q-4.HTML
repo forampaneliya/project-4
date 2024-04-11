@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 4. Write a JavaScript program to find which number is greater in 4 numbers using ladder if else. (using no return with parameter function) -->
+    
+    <script>
+        function gratest(a,b,c,d) {
+
+            if(a>b && a>c && a>d)
+            {
+                console.log("A is grater");
+            }
+            else if(b>a && b>c && b>d)
+            {
+                console.log("B is grater");
+            }
+            else if(c>a && c>b && c>d)
+            {
+                console.log("C is grater");
+            }
+            else if(d>a && d>b && d>c)
+            {
+                console.log("D is grater");
+            }
+            else
+            {
+                console.log("please enter number only");
+            }
+            
+        }
+        gratest(50,6,8,500)
+
+    </script>
+    
+</body>
+</html>
